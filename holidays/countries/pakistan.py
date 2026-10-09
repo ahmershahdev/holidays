@@ -158,6 +158,12 @@ class PakistanIslamicHolidays(_CustomIslamicHolidays):
         2025: (MAR, 31),
     }
 
+    # Pakistan Stock Exchange closures, see holidays/financial/pakistan_stock_exchange.py.
+    JUMUATUL_WIDA_DATES_CONFIRMED_YEARS = (2020, 2026)
+    JUMUATUL_WIDA_DATES = {
+        2026: (MAR, 20),
+    }
+
     # https://web.archive.org/web/20250724061027/https://www.timeanddate.com/holidays/pakistan/eid-milad-un-nabi
     # https://www.sbp.org.pk/bprd/2025/CL19.htm
     # https://web.archive.org/web/20261009165136/https://www.sbp.org.pk/assets/documents/press-release/PR-25-August-2026.pdf
